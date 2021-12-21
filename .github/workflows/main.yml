@@ -49,7 +49,7 @@ jobs:
         aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
     # Copy the files from build folder to the S3 bucket
     - name: Deploy to S3
-      run: aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --acl public-read --delete --metadata '{"Cache-Control":"max-age=31536000"}'
+      run: aws s3 sync . s3://${{ secrets.AWS_S3_BUCKET }} --delete --metadata '{"Cache-Control":"max-age=31536000"}'
       working-directory: dist
     - name: Invalidate CDN
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CDN_ID }} --paths "/*"
