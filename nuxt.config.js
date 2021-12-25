@@ -1,6 +1,6 @@
 const meta_description = "I'm an Argentina-based Software Engineering Student and Full-Stack Developer focused on developing clean, user-friendly, and fast experiences.";
 const meta_title = "Gonzalo Hirsch | Software Engineer and Freelancer";
-const meta_image = "https://me.gonzalohirsch.com/share.png"
+const meta_image = "https://me.gonzalohirsch.com/share.jpeg"
 const meta_url = "https://me.gonzalohirsch.com/"
 
 export default {
@@ -101,7 +101,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/static/font/inter.css'
+    '@/static/font/inter.css',
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -114,7 +115,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxt/postcss8',
     '@nuxt/image'
   ],
 
@@ -124,5 +125,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   }
 }
