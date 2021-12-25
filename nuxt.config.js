@@ -95,8 +95,14 @@ export default {
           ]
         },
         type: 'application/ld+json'
-      }
-    ]
+      },
+      // Google Analytics
+      {
+        hid: "Google Analytics", src: "https://www.googletagmanager.com/gtag/js?id=G-M8H7BZDR4T", async: true
+      },
+      { innerHTML: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-M8H7BZDR4T');", type: 'text/javascript', charset: 'utf-8' }
+    ],
+    __dangerouslyDisableSanitizers: ['script']
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
