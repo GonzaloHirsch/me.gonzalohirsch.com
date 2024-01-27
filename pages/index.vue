@@ -15,12 +15,14 @@
           href="https://gonzalohirsch.com"
           rel="noopener noreferer"
           aria-label="Got to my personal website"
-          ><h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl mb-4 hover:underline decoration-indigo-600 underline-offset-2">
+          ><h1
+            class="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl mb-4 hover:underline decoration-indigo-600 underline-offset-2"
+          >
             <strong>Gonzalo Hirsch</strong>
           </h1></a
         >
         <h2 class="text-lg md:text-xl xl:text-2xl">
-          Full Stack Developer & Freelancer
+          Full Stack Software Engineer
         </h2>
 
         <!-- ICONS FROM https://simpleicons.org/?q=instagram -->
@@ -175,9 +177,61 @@
         </div>
 
         <div class="flex flex-row text-white mt-8">
-          <a href="https://calendly.com/gonzalohirsch/30min" target="_blank" rel="noopener noreferer" class="text-base sm:text-xl hover:underline decoration-indigo-600 underline-offset-2" aria-label="Schedule a 30 minute meeting">
+          <a
+            href="https://calendly.com/gonzalohirsch/30min"
+            target="_blank"
+            rel="noopener noreferer"
+            class="text-base sm:text-xl hover:underline decoration-indigo-600 underline-offset-2"
+            aria-label="Schedule a 30 minute meeting"
+          >
             <h3>Schedule a Meeting</h3>
           </a>
+        </div>
+        <div class="hidden">
+          <p>
+            UK-based Software Engineer (BS, MEng), AWS Certified Solutions
+            Architect Associate and Full-Stack Engineer focused on creating
+            performant and clean experiences.
+          </p>
+          <p>
+            I am an optimization-focused software engineer with over four years
+            of experience in software development. Proven expertise in complex
+            environments and software optimization, reducing yearly costs by
+            more than $4,500 and Time to Market by 65%, delivering value and
+            innovation in software design. My focus is analyzing software,
+            defining potential improvements, and leading those changes.
+          </p>
+          <p>
+            Experience optimizing infrastructure in AWS to decrease latency and
+            slash costs. Participated in large-scale projects written in Java,
+            Javascript, Typescript, Python, C, C#, and Go. Focused on back-end
+            services and infrastructure, with an affinity for web development,
+            migrating websites to increase conversions by 3-4x and reaching more
+            than 10,000,000 impressions.
+          </p>
+          <p>
+            Founded and led technology-focused student organizations while
+            working on my combined bachelor's and master's in software
+            engineering. Grew the organization to be one of the most prominent
+            in the university.
+          </p>
+          <p>
+            I taught software-related skills in multiple voluntary
+            opportunities. Some were an assistant to a Machine Learning course
+            and other mentoring instances. Curated and taught courses on REST
+            API development using Django and introduction to programming in
+            Python, reaching more than 350 students.
+          </p>
+          <p>
+            I enjoy participating in hackathons and have a compelling track
+            record of awards. I won the "Code For Good" hackathon from JP Morgan
+            in 2019 and achieved third place at Bellatrix's and ITBA's
+            hackathons in 2019 and 2018, respectively.
+          </p>
+          <p>
+            Heavy interest in Machine Learning, Cryptocurrencies (ghirsch.eth),
+            and making technology more accessible.
+          </p>
         </div>
       </div>
     </div>
